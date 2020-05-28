@@ -9,9 +9,11 @@ def reverse_each_word(string)
      while counter >= 0 
      new_string += word[counter]
      counter -- 
-    end
+    
    new_array << new_string
-   binding.pry
+   
    end
-   return new_array.join(" ")
+   
 end 
+return new_array.join(" ")
+end
