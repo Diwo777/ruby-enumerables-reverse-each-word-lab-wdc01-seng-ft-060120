@@ -15,4 +15,3 @@ require 'pry'
    end
    return new_array.join(" ")
 end 
-end
