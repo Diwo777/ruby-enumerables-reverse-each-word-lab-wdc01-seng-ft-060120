@@ -20,4 +20,5 @@ end
    end
    new_array << new_string
    end
+   return new_array.join(" ")
  end
