@@ -14,6 +14,6 @@ end
    array.each do |word|
      new_string = ''
      counter = word.length - 1 
-     while counter
+     while counter >= 0 
    end
  end
