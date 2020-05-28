@@ -15,6 +15,8 @@ end
      new_string = ''
      counter = word.length - 1 
      while counter >= 0 
+     new_string = word[counter]
      counter -- 
+   end
    end
  end
