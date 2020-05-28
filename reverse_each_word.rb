@@ -4,7 +4,7 @@ def reverse_each_word(string)
    new_array = [] 
    array.each do |word|
      new_string = ''
-     binding.pry
+    
      counter = word.length - 1 
      while counter >= 0 
      new_string = word[counter]
