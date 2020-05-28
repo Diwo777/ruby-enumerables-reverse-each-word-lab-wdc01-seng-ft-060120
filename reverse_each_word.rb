@@ -18,5 +18,6 @@ end
      new_string = word[counter]
      counter -- 
    end
+   new_array << new_string
    end
  end
