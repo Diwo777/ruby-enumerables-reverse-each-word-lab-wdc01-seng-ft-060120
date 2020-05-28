@@ -7,7 +7,7 @@ def reverse_each_word(string)
     
      counter = word.length - 1 
      while counter >= 0 
-     new_string = word[counter]
+     new_string += word[counter]
      counter -- 
    
    new_array << new_string
