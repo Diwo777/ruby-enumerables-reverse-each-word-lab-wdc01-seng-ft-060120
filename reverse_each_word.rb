@@ -1,3 +1,4 @@
+require 'pry'
 def reverse_each_word(string)
   array = string.split(" ")
   new_array = []
@@ -12,6 +13,7 @@ end
    new_array = [] 
    array.each do |word|
      new_string = ''
-     
+     counter = word.length - 1 
+     while counter
    end
  end
